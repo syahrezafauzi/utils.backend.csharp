@@ -12,7 +12,7 @@ namespace zauzi.utils.csharp.Networking
     {
         public T getData<T>(Options options = null)
         {
-            T result = default(T);
+            T result = default(T); 
 
             try
             {
