@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace zauzi.utils.csharp.Models
+namespace zauzi.chsarp.net.utils.Models
 {
     public abstract class Response
     {

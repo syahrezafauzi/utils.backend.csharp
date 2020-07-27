@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.28307.960
+VisualStudioVersion = 15.0.26430.16
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zauzi.utils.csharp", "zauzi.utils.csharp\zauzi.utils.csharp.csproj", "{3179D0E9-36D9-4714-8214-5467251C97D0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zauzi.csharp.net.utils", "zauzi.utils.csharp\zauzi.csharp.net.utils.csproj", "{3179D0E9-36D9-4714-8214-5467251C97D0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
