@@ -4,9 +4,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using zauzi.utils.csharp.Models;
+using zauzi.chsarp.net.utils.Models;
 
-namespace zauzi.utils.csharp.Networking
+namespace zauzi.chsarp.net.utils.Networking
 {
     public class ResponseStatus : Response
     {
