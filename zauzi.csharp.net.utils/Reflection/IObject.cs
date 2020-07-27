@@ -8,6 +8,6 @@ namespace zauzi.csharp.net.utils.Reflection
 {
     public interface IObject
     {
-        Object GetValue(Object obj, String methodName, params Object[] param);
+        T GetValue<T>(Object obj, String methodName, params Object[] param);
     }
 }

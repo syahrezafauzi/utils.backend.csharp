@@ -15,14 +15,14 @@ namespace zauzi.csharp.net.utils.Reflection
         #region IObject
 
         public static IObject Object => (IObject)instance;
-        object IObject.GetValue(object obj, string methodName, params Object[] param)
+        T IObject.GetValue<T>(object obj, string methodName, params Object[] param)
         {
-            object result = null;
+            T result = default(T);
 
             try
             {
                 MethodInfo method = obj?.GetType()?.GetMethod(methodName);
-                result = method?.Invoke(obj, param);
+                result = (T) method?.Invoke(obj, param);
             }catch(Exception ex)
             {
                 LogUtils.Default.Write(ex);
