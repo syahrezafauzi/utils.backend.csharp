@@ -3,13 +3,15 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using zauzi.csharp.net.utils.Networking;
 
 namespace zauzi.chsarp.net.utils.Models
 {
-    public abstract class Response
+    public abstract class Response : HttpRequest.IResponse
     {
         public bool? success { get; set; } = false;
         public string message { get; set; }
+        public Dictionary<String, Object> info { get; set; }
         object _data;
         public object data
         {
@@ -30,6 +32,5 @@ namespace zauzi.chsarp.net.utils.Models
                     //do nothing
                 }
             }
-        }
     }
 }
